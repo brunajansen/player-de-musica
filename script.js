@@ -40,6 +40,7 @@ document.querySelector('.proxima').addEventListener('click', () => {
 });
 
 // Funções
+
 function renderizarMusica(index){
     musica.setAttribute('src', musicas[index].src);
     musica.addEventListener('loadeddata', () => {
@@ -78,4 +79,6 @@ function segundosParaMinutos(segundos){
 
     return campoMinutos+':'+campoSegundos;
 }
+
+
 

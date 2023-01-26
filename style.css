@@ -10,8 +10,16 @@ main{
     align-items: center;
     justify-content: center;
     height: 100%;
-    background-image: linear-gradient( white, black);
+    position: relative;
     color: white;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+main#principal{
+    background-color: black;
 }
 
 h1 {
@@ -27,12 +35,20 @@ h2{
 img {
     width: 300px;
     height: 300px;
+    border: 0.5px solid rgba(255, 255, 255, 0.567);
 }
 
 progress{
     height: 6px;
     width: 0;
 
+}
+
+main#principal{
+    width: 400px;
+    height: 75%;
+    box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.439);
+    border-radius: 12px;
 }
 
 .descricao{
@@ -90,3 +106,15 @@ progress{
     display: none;
     cursor: pointer;
 }
+
+#mode_icon{
+    border: 0.5px solid rgba(0, 0, 0, 0.875);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.515);
+    padding: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    right: 12%;
+    cursor: pointer;
+}
+
